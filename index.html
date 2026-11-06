@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Dr Ashleigh Toh | Dental Surgeon — Advanced Training in Oral Medicine</title>
+  <meta name="description" content="Professional portfolio and clinical information website for Dr Ashleigh Toh, Dental Surgeon with advanced training in Oral Medicine. Information for referring dental colleagues and patients with oral mucosal conditions.">
+  <meta name="keywords" content="Dr Ashleigh Toh, Oral Medicine, Dental Surgeon Singapore, Oral Mucosal Conditions, Oral Lichen Planus, Burning Mouth, Mouth Ulcers, Singapore Dentist">
+  <meta name="author" content="Dr Ashleigh Toh">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr Ashleigh Toh | Dental Surgeon — Advanced Training in Oral Medicine">
+  <meta property="og:description" content="Professional portfolio and clinical information for referring dentists and patients seeking assessment for oral mucosal and soft-tissue conditions in Singapore.">
+  <meta property="og:image" content="assets/profile_image.jpeg">
+  <meta property="og:url" content="https://whatsnottaken.github.io/dental-portfolio/">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dr Ashleigh Toh | Dental Surgeon — Advanced Training in Oral Medicine">
+  <meta name="twitter:description" content="Collegiate referral information and patient guidance for oral mucosal conditions in Singapore.">
+  <meta name="twitter:image" content="assets/profile_image.jpeg">
+
+  <!-- Favicon (SVG data URI - elegant clean monogram) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23542B39'/><text x='50%' y='63%' font-family='serif' font-size='52' font-weight='600' fill='%23FAF4F1' text-anchor='middle'>AT</text></svg>">
+
+  <!-- Typography: Web fonts with graceful serif and clean sans-serif fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD Structured Data (Strictly compliant with SDC / MOH guidelines) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr Ashleigh Toh",
+    "jobTitle": "Dental Surgeon",
+    "description": "Dental Surgeon with advanced postgraduate training in Oral Medicine, focusing on the assessment and non-surgical management of oral mucosal conditions.",
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "National University of Singapore",
+        "description": "Bachelor of Dental Surgery (BDS)"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "University of London",
+        "description": "Master of Science in Oral Medicine (MSc)"
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "BDS (Singapore)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "MSc (Oral Medicine) (London)"
+      }
+    ],
+    "image": "assets/profile_image.jpeg"
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       DESIGN SYSTEM: Palette D — Burgundy & Soft Blush
+       WCAG 2.2 AA Compliant Contrast Tokens
+       ========================================================================== */
+    :root {
+      /* Palette D Tokens */
+      --color-primary: #542B39;          /* Deep Burgundy: headings, brand emphasis */
+      --color-primary-dark: #381B25;     /* Darker Burgundy for active states & high contrast */
+      --color-primary-light: #6E3B4C;    /* Muted Burgundy hover */
+      --color-accent-secondary: #865365; /* Dusty Rose: accents, icons, secondary emphasis */
+      --color-accent-soft: #C49AA2;      /* Muted Blush: decorative borders, badges */
+      --color-bg-main: #FAF4F1;          /* Soft White: main canvas background */
+      --color-bg-card: #FFFFFF;          /* Pure White: clean card surface */
+      --color-bg-tint: #F5ECE8;          /* Light warm rose tint: sections, highlights */
+      --color-border: #E8DAD4;           /* Pale Rose: subtle structural borders */
+      --color-border-subtle: #F0E5E0;    /* Ultra-light border */
+      
+      /* Typography Colors */
+      --color-text-main: #2C1820;        /* Deep Charcoal-Burgundy for optimal reading contrast */
+      --color-text-muted: #5E4A52;       /* Readable secondary body text (passes AA contrast) */
+      --color-text-light: #7E6B72;       /* Tertiary microcopy */
+      --color-text-inverse: #FAF4F1;     /* Contrast text on dark burgundy */
+
+      /* Fonts */
+      --font-serif: 'Newsreader', 'Georgia', 'Times New Roman', serif;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+      /* Spacing Scale */
+      --space-2xs: 0.25rem;
+      --space-xs: 0.5rem;
+      --space-sm: 0.75rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2rem;
+      --space-2xl: 3rem;
+      --space-3xl: 4.5rem;
+      --space-4xl: 6rem;
+
+      /* Layout */
+      --max-width: 1200px;
+      --nav-height: 76px;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --radius-pill: 9999px;
+
+      /* Shadows */
+      --shadow-sm: 0 2px 6px rgba(84, 43, 57, 0.04);
+      --shadow-md: 0 8px 24px rgba(84, 43, 57, 0.07);
+      --shadow-lg: 0 16px 40px rgba(84, 43, 57, 0.10);
+      
+      /* Focus ring */
+      --focus-ring: 0 0 0 3px rgba(134, 83, 101, 0.4);
+    }
+
+    /* Reset & Base Setup */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--nav-height) + 1.5rem);
+      -webkit-text-size-adjust: 100%;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--color-text-main);
+      background-color: var(--color-bg-main);
+      line-height: 1.65;
+      font-weight: 400;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Accessibility Skip Link */
+    .skip-link {
+      position: absolute;
+      top: -60px;
+      left: 1rem;
+      background: var(--color-primary);
+      color: var(--color-text-inverse);
+      padding: 0.75rem 1.25rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      z-index: 10000;
+      transition: top 0.2s ease;
+      text-decoration: none;
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+      outline: 3px solid var(--color-accent-soft);
+    }
+
+    /* Focus styling */
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 3px;
+      box-shadow: var(--focus-ring);
+    }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      color: var(--color-primary);
+      line-height: 1.25;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    h1 {
+      font-size: clamp(2.25rem, 5vw, 3.75rem);
+      margin-bottom: var(--space-md);
+    }
+
+    h2 {
+      font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+      margin-bottom: var(--space-sm);
+    }
+
+    h3 {
+      font-size: clamp(1.25rem, 2vw, 1.65rem);
+      margin-bottom: var(--space-xs);
+    }
+
+    p {
+      margin-bottom: var(--space-md);
+      color: var(--color-text-muted);
+      font-size: 1.025rem;
+      max-width: 68ch;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      color: var(--color-text-main);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--color-primary);
+    }
+
+    /* Structural Containers */
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: clamp(1.25rem, 4vw, 2.5rem);
+      padding-right: clamp(1.25rem, 4vw, 2.5rem);
+    }
+
+    .section {
+      padding-top: clamp(3.5rem, 7vw, 6.5rem);
+      padding-bottom: clamp(3.5rem, 7vw, 6.5rem);
+      position: relative;
+    }
+
+    .section-tint {
+      background-color: var(--color-bg-tint);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .section-header {
+      margin-bottom: clamp(2.5rem, 5vw, 4rem);
+    }
+
+    .section-header.text-center {
+      text-align: center;
+    }
+
+    .section-header.text-center p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--color-accent-secondary);
+      margin-bottom: var(--space-xs);
+    }
+
+    /* ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== */
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--nav-height);
+      background-color: rgba(250, 244, 241, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+      z-index: 1000;
+      transition: all 0.25s ease;
+    }
+
+    .site-header.scrolled {
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+    }
+
+    .brand-name {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+    }
+
+    .brand-tag {
+      font-size: 0.725rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 0.925rem;
+      font-weight: 500;
+      color: var(--color-text-main);
+      padding: 0.4rem 0.2rem;
+      position: relative;
+      transition: color 0.2s ease;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: var(--color-primary);
+      transition: width 0.2s ease;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--color-primary);
+    }
+
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+    }
+
+    .nav-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.55rem 1.15rem;
+      background-color: var(--color-primary);
+      color: var(--color-text-inverse) !important;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: var(--radius-pill);
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .nav-cta-btn:hover {
+      background-color: var(--color-primary-dark);
+      transform: translateY(-1px);
+    }
+
+    /* Mobile Hamburger Menu */
+    .mobile-nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      color: var(--color-primary);
+      border-radius: var(--radius-sm);
+    }
+
+    .mobile-nav-toggle svg {
+      width: 26px;
+      height: 26px;
+      display: block;
+    }
+
+    @media (max-width: 991px) {
+      .mobile-nav-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: var(--nav-height);
+        left: 0;
+        right: 0;
+        background-color: var(--color-bg-main);
+        border-bottom: 1px solid var(--color-border);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.75rem 2rem 2.5rem;
+        gap: 1.25rem;
+        transform: translateY(-110%);
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        box-shadow: var(--shadow-lg);
+        max-height: calc(100vh - var(--nav-height));
+        overflow-y: auto;
+      }
+
+      .nav-links.is-open {
+        transform: translateY(0);
+      }
+
+      .nav-link {
+        font-size: 1.15rem;
+        width: 100%;
+        padding: 0.5rem 0;
+      }
+
+      .nav-cta-btn {
+        width: 100%;
+        margin-top: 0.5rem;
+        text-align: center;
+      }
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero {
+      padding-top: calc(var(--nav-height) + clamp(2.5rem, 5vw, 4.5rem));
+      padding-bottom: clamp(3.5rem, 6vw, 5.5rem);
+      background: linear-gradient(180deg, var(--color-bg-main) 0%, rgba(245, 236, 232, 0.5) 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: clamp(2rem, 5vw, 4.5rem);
+      align-items: center;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-pill);
+      font-size: 0.825rem;
+      font-weight: 600;
+      color: var(--color-accent-secondary);
+      margin-bottom: var(--space-md);
+      align-self: flex-start;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .hero-badge-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--color-accent-secondary);
+    }
+
+    .hero-title {
+      margin-bottom: var(--space-md);
+      color: var(--color-primary);
+    }
+
+    .hero-lead {
+      font-size: clamp(1.075rem, 1.8vw, 1.25rem);
+      color: var(--color-text-main);
+      line-height: 1.6;
+      margin-bottom: var(--space-lg);
+    }
+
+    .credentials-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: var(--space-xl);
+    }
+
+    .credential-pill {
+      font-size: 0.825rem;
+      font-weight: 500;
+      padding: 0.35rem 0.75rem;
+      background-color: rgba(134, 83, 101, 0.08);
+      color: var(--color-primary);
+      border: 1px solid rgba(134, 83, 101, 0.18);
+      border-radius: var(--radius-sm);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: var(--space-lg);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.65rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: var(--radius-pill);
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      line-height: 1;
+    }
+
+    .btn-primary {
+      background-color: var(--color-primary);
+      color: var(--color-text-inverse) !important;
+      box-shadow: 0 4px 12px rgba(84, 43, 57, 0.16);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--color-primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(84, 43, 57, 0.22);
+    }
+
+    .btn-secondary {
+      background-color: var(--color-bg-card);
+      color: var(--color-primary);
+      border-color: var(--color-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--color-bg-tint);
+      border-color: var(--color-accent-soft);
+      transform: translateY(-2px);
+    }
+
+    .btn svg {
+      width: 17px;
+      height: 17px;
+      transition: transform 0.2s ease;
+    }
+
+    .btn:hover svg {
+      transform: translateX(3px);
+    }
+
+    /* Portrait Image Container */
+    .hero-image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portrait-card {
+      position: relative;
+      width: 100%;
+      max-width: 420px;
+      background: var(--color-bg-card);
+      padding: 0.85rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .portrait-frame {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      overflow: hidden;
+      border-radius: calc(var(--radius-lg) - 6px);
+      background-color: var(--color-bg-tint);
+    }
+
+    .portrait-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .portrait-card:hover .portrait-img {
+      transform: scale(1.02);
+    }
+
+    .portrait-caption {
+      margin-top: 0.85rem;
+      text-align: center;
+      padding: 0 0.5rem 0.25rem;
+    }
+
+    .portrait-name {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      margin-bottom: 0.15rem;
+    }
+
+    .portrait-sub {
+      font-size: 0.825rem;
+      color: var(--color-text-muted);
+    }
+
+    @media (max-width: 991px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .hero-image-wrapper {
+        order: -1;
+      }
+
+      .portrait-card {
+        max-width: 340px;
+        margin: 0 auto;
+      }
+    }
+
+    /* ==========================================================================
+       ABOUT DR TOH
+       ========================================================================== */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: clamp(2rem, 5vw, 4rem);
+      align-items: start;
+    }
+
+    .about-text p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .callout-box {
+      background-color: var(--color-bg-card);
+      border-left: 4px solid var(--color-primary);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 1.5rem 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .callout-box p {
+      color: var(--color-text-main);
+      font-size: 1rem;
+      margin-bottom: 0;
+      font-style: italic;
+    }
+
+    .about-cards-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .feature-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-accent-soft);
+    }
+
+    .feature-icon-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background-color: rgba(134, 83, 101, 0.1);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .feature-icon-wrapper svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .feature-card p {
+      font-size: 0.925rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 850px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       FOR DENTAL PROFESSIONALS (REFERRALS)
+       ========================================================================== */
+    .referral-banner {
+      background: linear-gradient(135deg, var(--color-primary) 0%, #3F1D2A 100%);
+      color: var(--color-text-inverse);
+      border-radius: var(--radius-lg);
+      padding: clamp(2rem, 5vw, 3.5rem);
+      margin-bottom: 3.5rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    .referral-banner h2 {
+      color: #FFFFFF;
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+    }
+
+    .referral-banner p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 1.05rem;
+      max-width: 65ch;
+    }
+
+    .referral-banner .eyebrow {
+      color: var(--color-accent-soft);
+    }
+
+    .indications-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .indication-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .indication-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .indication-check {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: rgba(84, 43, 57, 0.08);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .indication-check svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .indication-card h3 {
+      font-size: 1.1rem;
+      color: var(--color-primary);
+      margin-bottom: 0;
+    }
+
+    .indication-card p {
+      font-size: 0.925rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0;
+      padding-left: 2.2rem;
+    }
+
+    /* Referral Pathway Steps */
+    .pathway-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .step-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 1.25rem;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-number {
+      font-family: var(--font-serif);
+      font-size: 2.25rem;
+      font-weight: 600;
+      color: var(--color-accent-secondary);
+      line-height: 1;
+      margin-bottom: 0.75rem;
+      opacity: 0.85;
+    }
+
+    .step-card h4 {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.4rem;
+    }
+
+    .step-card p {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 900px) {
+      .steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 550px) {
+      .steps-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       CONDITIONS SECTION (PATIENT-FRIENDLY EDUCATION)
+       ========================================================================== */
+    .conditions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 1.75rem;
+      margin-bottom: 3rem;
+    }
+
+    .condition-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .condition-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-accent-soft);
+    }
+
+    .condition-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background-color: var(--color-bg-tint);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .condition-icon svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .condition-card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .condition-overview {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--color-text-muted);
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+
+    .condition-prompt {
+      background-color: var(--color-bg-tint);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+      margin-top: auto;
+      border-left: 3px solid var(--color-accent-secondary);
+    }
+
+    .condition-prompt-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-accent-secondary);
+      margin-bottom: 0.25rem;
+    }
+
+    .condition-prompt p {
+      font-size: 0.85rem;
+      color: var(--color-text-main);
+      margin-bottom: 0;
+      line-height: 1.45;
+    }
+
+    /* Educational Notice Disclaimer Box */
+    .medical-notice-card {
+      background-color: var(--color-bg-card);
+      border: 1px dashed var(--color-accent-soft);
+      border-radius: var(--radius-md);
+      padding: 1.5rem 1.75rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    .notice-icon {
+      color: var(--color-accent-secondary);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .notice-icon svg {
+      width: 26px;
+      height: 26px;
+    }
+
+    .notice-content h4 {
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .notice-content p {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      line-height: 1.55;
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 480px) {
+      .conditions-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       FOR PATIENTS: WHAT TO EXPECT
+       ========================================================================== */
+    .patient-guide-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 4vw, 3.5rem);
+      margin-bottom: 3rem;
+    }
+
+    .assessment-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .assessment-step-item {
+      display: flex;
+      gap: 1.25rem;
+    }
+
+    .assessment-step-bullet {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      color: var(--color-text-inverse);
+      font-family: var(--font-serif);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.95rem;
+    }
+
+    .assessment-step-content h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .assessment-step-content p {
+      font-size: 0.925rem;
+      margin-bottom: 0;
+    }
+
+    .checklist-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.75rem, 4vw, 2.5rem);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .checklist-card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 1rem;
+    }
+
+    .checklist-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      font-size: 0.925rem;
+      color: var(--color-text-main);
+    }
+
+    .checklist-item svg {
+      width: 18px;
+      height: 18px;
+      color: var(--color-accent-secondary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    @media (max-width: 850px) {
+      .patient-guide-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       PRACTICE LOCATIONS & LOCUM SCHEDULE
+       Verified Clinic Locations in Singapore
+       ========================================================================== */
+    .schedule-controls {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .toggle-pill-btn {
+      padding: 0.6rem 1.4rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--color-border);
+      background-color: var(--color-bg-card);
+      color: var(--color-text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .toggle-pill-btn.active {
+      background-color: var(--color-primary);
+      color: var(--color-text-inverse);
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-sm);
+    }
+
+    /* Clinic Cards Grid */
+    .clinics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+    }
+
+    .clinic-card {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .clinic-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-accent-soft);
+    }
+
+    .clinic-header {
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--color-border-subtle);
+      padding-bottom: 1rem;
+    }
+
+    .clinic-branch-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-accent-secondary);
+      background-color: rgba(134, 83, 101, 0.08);
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-pill);
+      margin-bottom: 0.5rem;
+    }
+
+    .clinic-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.25rem;
+      color: var(--color-primary);
+    }
+
+    .clinic-address {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .clinic-address svg {
+      width: 17px;
+      height: 17px;
+      color: var(--color-accent-secondary);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .clinic-sessions {
+      background-color: var(--color-bg-tint);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.15rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .session-title {
+      font-size: 0.775rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .session-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.875rem;
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(134, 83, 101, 0.2);
+    }
+
+    .session-item:last-child {
+      border-bottom: none;
+    }
+
+    .session-day {
+      font-weight: 600;
+      color: var(--color-text-main);
+    }
+
+    .session-hours {
+      color: var(--color-accent-secondary);
+      font-weight: 500;
+    }
+
+    .clinic-actions {
+      margin-top: auto;
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .clinic-actions .btn {
+      flex: 1;
+      padding: 0.65rem 1rem;
+      font-size: 0.85rem;
+    }
+
+    /* Timetable Table Mode */
+    .timetable-wrapper {
+      display: none;
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      overflow-x: auto;
+    }
+
+    .timetable-wrapper.is-visible {
+      display: block;
+    }
+
+    .timetable {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    .timetable th, .timetable td {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+
+    .timetable th {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-primary);
+      background-color: var(--color-bg-tint);
+    }
+
+    .timetable tr:last-child td {
+      border-bottom: none;
+    }
+
+    .day-badge {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--color-primary);
+    }
+
+    .status-active {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #2D6A4F;
+      background-color: rgba(45, 106, 79, 0.08);
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-pill);
+    }
+
+    .status-off {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+    }
+
+    /* ==========================================================================
+       CONTACT & REFERRAL SECTION
+       ========================================================================== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: clamp(2rem, 5vw, 4rem);
+    }
+
+    .contact-panel {
+      background-color: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: clamp(2rem, 4vw, 3rem);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .contact-panel h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin: 1.75rem 0;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .contact-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      background-color: rgba(134, 83, 101, 0.1);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-icon svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .contact-info-label {
+      font-size: 0.775rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-accent-secondary);
+      margin-bottom: 0.15rem;
+    }
+
+    .contact-info-val {
+      font-size: 1rem;
+      color: var(--color-text-main);
+      font-weight: 500;
+    }
+
+    .placeholder-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      background-color: rgba(220, 53, 69, 0.08);
+      color: #9E2A2B;
+      padding: 0.2rem 0.5rem;
+      border-radius: var(--radius-sm);
+      border: 1px dashed rgba(158, 42, 43, 0.4);
+      margin-top: 0.25rem;
+    }
+
+    .contact-disclaimer-card {
+      background-color: var(--color-bg-tint);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      border-left: 3px solid var(--color-primary);
+    }
+
+    @media (max-width: 850px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: #26121A;
+      color: #E2D3D8;
+      padding-top: clamp(3rem, 6vw, 4.5rem);
+      padding-bottom: 2.5rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .footer-brand h4 {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      color: #FAF4F1;
+      margin-bottom: 0.4rem;
+    }
+
+    .footer-brand p {
+      color: #C0A8B1;
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+
+    .footer-col h5 {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #FAF4F1;
+      margin-bottom: 1rem;
+    }
+
+    .footer-nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-nav a {
+      color: #C0A8B1;
+      transition: color 0.2s ease;
+    }
+
+    .footer-nav a:hover {
+      color: #FAF4F1;
+    }
+
+    .footer-compliance-box {
+      border-top: 1px solid rgba(232, 218, 212, 0.15);
+      padding-top: 2rem;
+      font-size: 0.8rem;
+      color: #9E858E;
+      line-height: 1.6;
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(232, 218, 212, 0.08);
+      font-size: 0.8rem;
+      color: #8C757E;
+    }
+
+    @media (max-width: 768px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       SITE HEADER & STICKY NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="header" role="banner">
+    <div class="container nav-container">
+      <a href="#home" class="brand" aria-label="Dr Ashleigh Toh - Home">
+        <span class="brand-name">Dr Ashleigh Toh</span>
+        <span class="brand-tag">Dental Surgeon &bull; Oral Medicine Training</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Primary Navigation Links -->
+      <nav id="primaryNav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#dentists" class="nav-link">For Dentists</a></li>
+          <li><a href="#conditions" class="nav-link">Conditions</a></li>
+          <li><a href="#patients" class="nav-link">For Patients</a></li>
+          <li><a href="#locations" class="nav-link">Locations</a></li>
+          <li><a href="#contact" class="nav-cta-btn">Refer / Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT
+       ========================================================================== -->
+  <main id="main" role="main">
+
+    <!-- 1. HERO SECTION -->
+    <section class="section hero" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span>BDS (Singapore) &bull; MSc (Oral Medicine) (London)</span>
+            </div>
+
+            <h1 id="hero-title" class="hero-title">
+              A thoughtful approach to oral health &amp; mucosal conditions.
+            </h1>
+
+            <p class="hero-lead">
+              Dr Ashleigh Toh is a dental surgeon with advanced postgraduate training in Oral Medicine, focusing on the careful assessment and supportive management of oral mucosal conditions, chronic mouth discomfort, and diagnostic queries.
+            </p>
+
+            <div class="credentials-pills">
+              <span class="credential-pill">Dental Surgeon</span>
+              <span class="credential-pill">BDS (Singapore)</span>
+              <span class="credential-pill">MSc Oral Medicine (London)</span>
+              <span class="credential-pill">Oral Mucosal Assessment</span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#dentists" class="btn btn-primary">
+                <span>For Dental Professionals</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#conditions" class="btn btn-secondary">
+                <span>Explore Conditions</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Supplied Profile Portrait -->
+          <div class="hero-image-wrapper">
+            <div class="portrait-card">
+              <div class="portrait-frame">
+                <img 
+                  src="assets/profile_image.jpeg" 
+                  alt="Portrait of Dr Ashleigh Toh, Dental Surgeon with advanced training in Oral Medicine"
+                  class="portrait-img"
+                  width="765" 
+                  height="1024"
+                  loading="eager"
+                  decoding="async"
+                >
+              </div>
+              <div class="portrait-caption">
+                <div class="portrait-name">Dr Ashleigh Toh</div>
+                <div class="portrait-sub">Dental Surgeon &bull; Clinical Interest in Oral Medicine</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT DR TOH -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+          
+          <div class="about-text">
+            <span class="eyebrow">Professional Profile</span>
+            <h2 id="about-title">Dedicated to clinical precision &amp; patient comfort.</h2>
+            
+            <p>
+              Dr Ashleigh Toh is a dental surgeon who completed her Bachelor of Dental Surgery (BDS) at the National University of Singapore, followed by advanced postgraduate academic training leading to the Master of Science (MSc) in Oral Medicine from London.
+            </p>
+            
+            <p>
+              Oral Medicine is the dental discipline dedicated to the non-surgical diagnosis, assessment, and management of medically related disorders affecting the oral and maxillofacial lining. These include persistent oral ulcers, chronic red and white patches, lichenoid reactions, burning mouth sensations, and salivary gland disorders.
+            </p>
+
+            <div class="callout-box">
+              <p>
+                "Careful listening, detailed tissue examination, and close collaboration with referring dental colleagues are the foundation of supportive, effective Oral Medicine care."
+              </p>
+            </div>
+
+            <p>
+              Recognising that oral mucosal changes often cause anxiety or prolonged discomfort, Dr Toh emphasises a calm, step-by-step diagnostic process and clear communication, ensuring each patient and their referring clinician receive a thorough, evidence-informed appraisal.
+            </p>
+          </div>
+
+          <!-- Key Principles Column -->
+          <div class="about-cards-col">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <h3>Comprehensive Diagnostic Workup</h3>
+              <p>Detailed evaluation of symptom history, medication review, and thorough soft-tissue assessment to understand the underlying presentation.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3>Collegiate Collaboration</h3>
+              <p>Prompt feedback and detailed clinical summaries back to referring dentists to ensure cohesive, ongoing patient care.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+              </div>
+              <h3>Evidence-Informed Care</h3>
+              <p>Non-surgical therapeutic strategies, patient reassurance, and surveillance plans aligned with current clinical evidence.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FOR DENTAL PROFESSIONALS (HIGH-PRIORITY REFERRAL SECTION) -->
+    <section class="section section-tint" id="dentists" aria-labelledby="dentists-title">
+      <div class="container">
+        
+        <!-- Collegiate Referral Banner -->
+        <div class="referral-banner">
+          <span class="eyebrow">Colleague Referrals &amp; Consultation</span>
+          <h2 id="dentists-title">Supporting dental colleagues with complex mucosal presentations.</h2>
+          <p>
+            When patients present with persistent, recurrent, or diagnostically uncertain oral mucosal changes, colleagues are welcome to seek an Oral Medicine assessment or initiate a clinical referral enquiry.
+          </p>
+          <div style="margin-top: 1.5rem;">
+            <a href="#contact" class="btn btn-secondary">
+              <span>Initiate a Referral Enquiry</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <span class="eyebrow">Clinical Indications</span>
+          <h2>Reasons to consider an Oral Medicine assessment</h2>
+          <p>Dental practitioners may consider referral or case discussion for presentations including, but not limited to:</p>
+        </div>
+
+        <div class="indications-grid">
+          
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>Persistent or Recurrent Ulceration</h3>
+            </div>
+            <p>Ulcerations persisting longer than 2–3 weeks, frequent aphthous outbreaks, or atypical mucosal lesions warranting further evaluation.</p>
+          </div>
+
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>White, Red &amp; Mixed Patches</h3>
+            </div>
+            <p>Leukoplakia, erythroplakia, speckled mucosal changes, or friction-independent hyperkeratosis requiring surveillance or biopsy planning.</p>
+          </div>
+
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>Oral Lichen Planus &amp; Lichenoid Reactions</h3>
+            </div>
+            <p>Symptomatic reticular, erosive, or desquamative gingival manifestations, as well as suspected drug-induced mucosal reactions.</p>
+          </div>
+
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>Burning Mouth &amp; Dysesthesia</h3>
+            </div>
+            <p>Chronic unexplained burning or altered oral sensations where conventional dental and periodontal sources have been excluded.</p>
+          </div>
+
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>Dry Mouth &amp; Salivary Hypofunction</h3>
+            </div>
+            <p>Severe xerostomia, medication-induced salivary hypofunction, or clinical suspicion of systemic connective tissue disease (e.g. Sjögren's).</p>
+          </div>
+
+          <div class="indication-card">
+            <div class="indication-card-header">
+              <span class="indication-check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <h3>Unexplained Halitosis</h3>
+            </div>
+            <p>Persistent halitosis unresolved by standard oral prophylaxis and periodontal treatment, requiring systematic assessment.</p>
+          </div>
+
+        </div>
+
+        <!-- Referral Pathway Steps -->
+        <h3 class="pathway-title">How the Referral Process Works</h3>
+        <div class="steps-grid">
+          
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">01</div>
+            <h4>Referral Enquiry</h4>
+            <p>Send a referral note or clinical enquiry outlining the patient's presentation, duration, and key concern.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">02</div>
+            <h4>Clinical Context</h4>
+            <p>Include medical history, medication list, previous treatments, and relevant imaging or biopsy reports where available.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">03</div>
+            <h4>Assessment Session</h4>
+            <p>The patient attends an in-depth clinical consultation with mucosal examination and diagnostic discussion.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">04</div>
+            <h4>Collegiate Report</h4>
+            <p>A written summary and proposed management plan are communicated back to the referring practitioner.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. CONDITIONS SECTION (PATIENT-FRIENDLY EDUCATION) -->
+    <section class="section" id="conditions" aria-labelledby="conditions-title">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="eyebrow">Patient Education</span>
+          <h2 id="conditions-title">Understanding oral mucosal conditions</h2>
+          <p>
+            Changes in the mouth lining are common and can have many causes. The overviews below are for general educational awareness.
+          </p>
+        </div>
+
+        <div class="conditions-grid">
+          
+          <!-- Condition 1: Mouth Ulcers -->
+          <article class="condition-card" aria-labelledby="c-ulcers">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <h3 id="c-ulcers">Mouth Ulcers</h3>
+            <p class="condition-overview">
+              Mouth ulcers are breaks in the delicate oral lining. While common aphthous ulcers often heal within 10 to 14 days, recurrent or persistent sores can stem from nutritional factors, autoimmune processes, stress, or other health conditions.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>Any ulcer that does not heal after 2 to 3 weeks, is unusually large or painful, or occurs with systemic unwellness warrants clinical examination.</p>
+            </div>
+          </article>
+
+          <!-- Condition 2: Oral Lichen Planus -->
+          <article class="condition-card" aria-labelledby="c-olp">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"></path>
+              </svg>
+            </div>
+            <h3 id="c-olp">Oral Lichen Planus</h3>
+            <p class="condition-overview">
+              An inflammatory condition affecting the mucous membranes inside the mouth. It frequently appears as fine white lace-like patterns (Wickham striae), red patches, or tender erosions on the inside of the cheeks, tongue, or gums.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>Seek review if you notice persistent soreness with spicy or citrus foods, bleeding red gums (desquamative gingivitis), or rough white patches.</p>
+            </div>
+          </article>
+
+          <!-- Condition 3: Burning Mouth Syndrome -->
+          <article class="condition-card" aria-labelledby="c-bms">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+              </svg>
+            </div>
+            <h3 id="c-bms">Burning Mouth Sensation</h3>
+            <p class="condition-overview">
+              A chronic sensation of burning, scalding, or numbness affecting the tongue, lips, roof of the mouth, or widespread oral areas. The tissues often look completely normal despite significant discomfort.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>A structured evaluation helps identify possible contributing factors such as dry mouth, nutritional deficiencies, or nerve-related sensitivity.</p>
+            </div>
+          </article>
+
+          <!-- Condition 4: Dry Mouth (Xerostomia) -->
+          <article class="condition-card" aria-labelledby="c-xerostomia">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3 id="c-xerostomia">Dry Mouth (Xerostomia)</h3>
+            <p class="condition-overview">
+              Reduced saliva flow or a constant subjective feeling of mouth dryness. Common causes include prescription medications, salivary gland changes, or autoimmune conditions. Saliva protects teeth and gums, making assessment valuable.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>If dryness causes difficulty swallowing, speaking, a sticky sensation, or rapid tooth decay. Do not discontinue prescribed medications without medical advice.</p>
+            </div>
+          </article>
+
+          <!-- Condition 5: Red & White Patches -->
+          <article class="condition-card" aria-labelledby="c-patches">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+              </svg>
+            </div>
+            <h3 id="c-patches">Red &amp; White Patches</h3>
+            <p class="condition-overview">
+              Changes in mucosal color or texture that cannot be rubbed away. While many are benign reactions to dental friction, some require close clinical monitoring, biopsy, or regular surveillance to ensure mucosal health.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>Any solitary red, white, or mixed lesion persisting longer than 2 weeks without an obvious physical cause should be evaluated professionally.</p>
+            </div>
+          </article>
+
+          <!-- Condition 6: Bad Breath (Halitosis) -->
+          <article class="condition-card" aria-labelledby="c-halitosis">
+            <div class="condition-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 15h18M3 9h18M6 21h12M6 3h12"></path>
+              </svg>
+            </div>
+            <h3 id="c-halitosis">Persistent Bad Breath</h3>
+            <p class="condition-overview">
+              Ongoing oral malodor is a common and treatable concern. While frequently linked to microbial buildup on the tongue or gums, persistent cases may involve salivary issues, nasal passage secretions, or systemic factors.
+            </p>
+            <div class="condition-prompt">
+              <div class="condition-prompt-title">When to seek assessment</div>
+              <p>When bad breath persists despite meticulous home brushing, flossing, and regular dental cleanings, a targeted assessment can identify underlying oral causes.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Educational Disclaimer Banner -->
+        <div class="medical-notice-card" role="note" aria-label="Medical Educational Notice">
+          <div class="notice-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </div>
+          <div class="notice-content">
+            <h4>Important Clinical Information Notice</h4>
+            <p>
+              The information provided on this website is for general educational purposes only and is not a substitute for an in-person clinical examination, professional diagnosis, or individual medical advice. Any persistent oral symptom, sore, or colour change lasting longer than two weeks should be evaluated by a dental surgeon or doctor. For acute breathing difficulties, severe facial swelling, or rapid bleeding, please visit an emergency department immediately.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. FOR PATIENTS: WHAT TO EXPECT -->
+    <section class="section section-tint" id="patients" aria-labelledby="patients-title">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="eyebrow">Patient Experience</span>
+          <h2 id="patients-title">What to expect during your assessment</h2>
+          <p>
+            An Oral Medicine consultation is focused on understanding your individual symptoms in depth within a calm and unhurried setting.
+          </p>
+        </div>
+
+        <div class="patient-guide-grid">
+          
+          <div class="assessment-steps">
+            
+            <div class="assessment-step-item">
+              <div class="assessment-step-bullet" aria-hidden="true">1</div>
+              <div class="assessment-step-content">
+                <h3>Detailed History &amp; Discussion</h3>
+                <p>We begin by discussing when your symptoms first appeared, how they fluctuate, what brings relief or aggravation, and your complete medical and medication history.</p>
+              </div>
+            </div>
+
+            <div class="assessment-step-item">
+              <div class="assessment-step-bullet" aria-hidden="true">2</div>
+              <div class="assessment-step-content">
+                <h3>Thorough Soft-Tissue Examination</h3>
+                <p>A gentle, systematic inspection of the entire oral lining, including the lips, cheeks, tongue borders, palate, floor of mouth, and salivary glands.</p>
+              </div>
+            </div>
+
+            <div class="assessment-step-item">
+              <div class="assessment-step-bullet" aria-hidden="true">3</div>
+              <div class="assessment-step-content">
+                <h3>Diagnosis &amp; Investigation Plan</h3>
+                <p>We discuss likely causes and whether any supportive investigations—such as a small diagnostic biopsy, blood test, or salivary flow assessment—are clinically indicated.</p>
+              </div>
+            </div>
+
+            <div class="assessment-step-item">
+              <div class="assessment-step-bullet" aria-hidden="true">4</div>
+              <div class="assessment-step-content">
+                <h3>Personalised Care &amp; Review</h3>
+                <p>You will receive clear guidance on symptom relief, oral care adjustments, lifestyle measures, and a tailored monitoring schedule.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Helpful Checklist Card -->
+          <div class="checklist-card">
+            <h3>Preparing for Your Visit</h3>
+            <p>To help us make the most of your consultation, please bring along:</p>
+            
+            <ul class="checklist-list">
+              <li class="checklist-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Current medication list</strong>, including prescribed drugs, over-the-counter supplements, and herbal products.</span>
+              </li>
+              <li class="checklist-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Referral letter or clinical notes</strong> from your referring dentist or doctor (if provided).</span>
+              </li>
+              <li class="checklist-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Previous biopsy reports, blood test results, or dental imaging</strong> relevant to your current concern.</span>
+              </li>
+              <li class="checklist-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Notes on your symptom timeline</strong>, including how long the condition has been present and any home remedies tried.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. PRACTICE LOCATIONS & LOCUM SCHEDULE -->
+    <section class="section" id="locations" aria-labelledby="locations-title">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="eyebrow">Practice Locations</span>
+          <h2 id="locations-title">Where Dr Ashleigh Toh practices</h2>
+          <p>
+            Dr Toh provides locum clinical dental consultations across three clinics in Singapore. Please refer to the session timings below when scheduling your visit.
+          </p>
+        </div>
+
+        <!-- Schedule Mode Toggle Buttons -->
+        <div class="schedule-controls" role="group" aria-label="Schedule display options">
+          <button class="toggle-pill-btn active" id="btnViewClinics" type="button" aria-pressed="true">
+            View by Clinic
+          </button>
+          <button class="toggle-pill-btn" id="btnViewTimetable" type="button" aria-pressed="false">
+            Weekly Timetable
+          </button>
+        </div>
+
+        <!-- View 1: Clinic Cards Grid -->
+        <div class="clinics-grid" id="clinicsGridView">
+          
+          <!-- Clinic 1: Teeth Q Hougang RiverCourt -->
+          <article class="clinic-card" aria-labelledby="clinic-hougang">
+            <div class="clinic-header">
+              <span class="clinic-branch-badge">Hougang RiverCourt</span>
+              <h3 id="clinic-hougang">Teeth Q Dental Surgeons</h3>
+            </div>
+            
+            <div class="clinic-address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>377 Hougang Street 32, #B1-09/10 Hougang RiverCourt, Singapore 530377</span>
+            </div>
+
+            <div class="clinic-sessions">
+              <div class="session-title">Locum Practice Sessions</div>
+              <div class="session-item">
+                <span class="session-day">Sunday</span>
+                <span class="session-hours">9:00 AM &ndash; 6:00 PM</span>
+              </div>
+              <div class="session-item">
+                <span class="session-day">Wednesday</span>
+                <span class="session-hours">1:00 PM &ndash; 9:00 PM</span>
+              </div>
+            </div>
+
+            <div class="clinic-actions">
+              <a href="tel:+6569705715" class="btn btn-primary" aria-label="Call Teeth Q Hougang RiverCourt at +65 6970 5715">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call Clinic</span>
+              </a>
+              <a href="https://maps.google.com/?q=Teeth+Q+Dental+Surgeons+Hougang+RiverCourt+530377" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Open directions to Teeth Q Hougang in Google Maps">
+                <span>Map</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Clinic 2: Winston Tan Oral Maxillofacial Surgery -->
+          <article class="clinic-card" aria-labelledby="clinic-wtoms">
+            <div class="clinic-header">
+              <span class="clinic-branch-badge">Mount Elizabeth Novena</span>
+              <h3 id="clinic-wtoms">Winston Tan Oral Maxillofacial Surgery</h3>
+            </div>
+            
+            <div class="clinic-address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>38 Irrawaddy Road, #11-43/44/45/46 Mount Elizabeth Novena Specialist Centre, Singapore 329563</span>
+            </div>
+
+            <div class="clinic-sessions">
+              <div class="session-title">Locum Practice Sessions</div>
+              <div class="session-item">
+                <span class="session-day">Tuesday</span>
+                <span class="session-hours">9:00 AM &ndash; 6:00 PM</span>
+              </div>
+              <div class="session-item">
+                <span class="session-day">Thursday</span>
+                <span class="session-hours">9:00 AM &ndash; 6:00 PM</span>
+              </div>
+            </div>
+
+            <div class="clinic-actions">
+              <a href="tel:+6563600570" class="btn btn-primary" aria-label="Call Winston Tan OMS at +65 6360 0570">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call Clinic</span>
+              </a>
+              <a href="https://maps.google.com/?q=Winston+Tan+Oral+Maxillofacial+Surgery+Mount+Elizabeth+Novena+329563" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Open directions to Winston Tan OMS in Google Maps">
+                <span>Map</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Clinic 3: Teeth Q Matilda Portico -->
+          <article class="clinic-card" aria-labelledby="clinic-matilda">
+            <div class="clinic-header">
+              <span class="clinic-branch-badge">Matilda Portico (Punggol)</span>
+              <h3 id="clinic-matilda">Teeth Q Dental Surgeons</h3>
+            </div>
+            
+            <div class="clinic-address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>218 Sumang Walk, #01-02 Matilda Portico, Singapore 820218</span>
+            </div>
+
+            <div class="clinic-sessions">
+              <div class="session-title">Locum Practice Sessions</div>
+              <div class="session-item">
+                <span class="session-day">Friday</span>
+                <span class="session-hours">9:00 AM &ndash; 6:00 PM</span>
+              </div>
+            </div>
+
+            <div class="clinic-actions">
+              <a href="tel:+6565382260" class="btn btn-primary" aria-label="Call Teeth Q Matilda Portico at +65 6538 2260">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call Clinic</span>
+              </a>
+              <a href="https://maps.google.com/?q=Teeth+Q+Dental+Surgeons+Matilda+Portico+820218" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Open directions to Teeth Q Matilda Portico in Google Maps">
+                <span>Map</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- View 2: Weekly Timetable Table -->
+        <div class="timetable-wrapper" id="timetableTableView" role="region" aria-label="Weekly locum schedule table" tabindex="0">
+          <table class="timetable">
+            <thead>
+              <tr>
+                <th scope="col">Day of Week</th>
+                <th scope="col">Clinic Location</th>
+                <th scope="col">Consultation Hours</th>
+                <th scope="col">Enquiries / Booking</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="day-badge">Sunday</span></td>
+                <td><strong>Teeth Q Dental Surgeons</strong> (Hougang RiverCourt)</td>
+                <td><span class="status-active">9:00 AM &ndash; 6:00 PM</span></td>
+                <td><a href="tel:+6569705715">+65 6970 5715</a></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Monday</span></td>
+                <td><span class="status-off">No clinic sessions scheduled</span></td>
+                <td><span class="status-off">&ndash;</span></td>
+                <td><span class="status-off">&ndash;</span></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Tuesday</span></td>
+                <td><strong>Winston Tan Oral Maxillofacial Surgery</strong> (Mt Elizabeth Novena)</td>
+                <td><span class="status-active">9:00 AM &ndash; 6:00 PM</span></td>
+                <td><a href="tel:+6563600570">+65 6360 0570</a></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Wednesday</span></td>
+                <td><strong>Teeth Q Dental Surgeons</strong> (Hougang RiverCourt)</td>
+                <td><span class="status-active">1:00 PM &ndash; 9:00 PM</span></td>
+                <td><a href="tel:+6569705715">+65 6970 5715</a></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Thursday</span></td>
+                <td><strong>Winston Tan Oral Maxillofacial Surgery</strong> (Mt Elizabeth Novena)</td>
+                <td><span class="status-active">9:00 AM &ndash; 6:00 PM</span></td>
+                <td><a href="tel:+6563600570">+65 6360 0570</a></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Friday</span></td>
+                <td><strong>Teeth Q Dental Surgeons</strong> (Matilda Portico, Punggol)</td>
+                <td><span class="status-active">9:00 AM &ndash; 6:00 PM</span></td>
+                <td><a href="tel:+6565382260">+65 6538 2260</a></td>
+              </tr>
+              <tr>
+                <td><span class="day-badge">Saturday</span></td>
+                <td><span class="status-off">No clinic sessions scheduled</span></td>
+                <td><span class="status-off">&ndash;</span></td>
+                <td><span class="status-off">&ndash;</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. CONTACT & REFERRAL ENQUIRIES -->
+    <section class="section section-tint" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <!-- Professional Referral Enquiries -->
+          <div class="contact-panel">
+            <span class="eyebrow">Professional Pathway</span>
+            <h3 id="contact-title">Referrals &amp; Colleague Enquiries</h3>
+            <p>
+              Dental practitioners and medical colleagues wishing to discuss a clinical case or arrange a consultation for a patient with oral mucosal concerns are invited to get in touch.
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Direct Referral Email</div>
+                  <!-- OWNER PLACEHOLDER: Insert professional referral email below -->
+                  <div class="contact-info-val">
+                    <span class="placeholder-badge">[DR ASHLEIGH TOH REFERRAL EMAIL TO BE ADDED]</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Referral Documentation</div>
+                  <div class="contact-info-val">
+                    Please provide patient particulars, presenting duration, key clinical concerns, and any previous biopsy or imaging findings.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-disclaimer-card">
+              <strong>Static Website Privacy Notice:</strong> This website does not store or process patient electronic medical records. For patient confidentiality, clinical referrals should be sent through standard secure clinic channels or discussed directly by telephone.
+            </div>
+          </div>
+
+          <!-- Patient Consultation & Appointments -->
+          <div class="contact-panel">
+            <span class="eyebrow">Patient Consultations</span>
+            <h3>Booking an Assessment</h3>
+            <p>
+              To schedule an oral mucosal consultation with Dr Ashleigh Toh, please telephone the clinic of your choice directly according to her locum schedule:
+            </p>
+
+            <div class="contact-list">
+              
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Teeth Q Hougang RiverCourt (Sun &amp; Wed)</div>
+                  <div class="contact-info-val"><a href="tel:+6569705715">+65 6970 5715</a></div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Winston Tan OMS Novena (Tue &amp; Thu)</div>
+                  <div class="contact-info-val"><a href="tel:+6563600570">+65 6360 0570</a></div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="contact-info-label">Teeth Q Matilda Portico (Fri)</div>
+                  <div class="contact-info-val"><a href="tel:+6565382260">+65 6538 2260</a></div>
+                </div>
+              </div>
+
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 1.5rem;">
+              Please inform the clinic reception that you wish to arrange a consultation with Dr Ashleigh Toh for an oral mucosal assessment.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Dr Ashleigh Toh</h4>
+          <p>
+            BDS (Singapore) &bull; MSc (Oral Medicine) (London)<br>
+            Dental Surgeon &bull; Advanced Training in Oral Medicine
+          </p>
+          <p style="margin-top: 0.75rem; font-size: 0.825rem;">
+            A personal clinical profile and educational resource dedicated to the assessment and management of oral mucosal conditions.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Navigation</h5>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Dr Toh</a></li>
+            <li><a href="#dentists">For Dental Professionals</a></li>
+            <li><a href="#conditions">Oral Conditions Guide</a></li>
+            <li><a href="#patients">What to Expect</a></li>
+            <li><a href="#locations">Practice Locations</a></li>
+            <li><a href="#contact">Contact &amp; Referrals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Practice Locations</h5>
+          <ul class="footer-nav">
+            <li><a href="#locations">Teeth Q Hougang RiverCourt</a></li>
+            <li><a href="#locations">Winston Tan OMS (Novena)</a></li>
+            <li><a href="#locations">Teeth Q Matilda Portico (Punggol)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Regulatory & Professional Compliance Statement -->
+      <div class="footer-compliance-box">
+        <p>
+          <strong>Professional Registration &amp; Regulatory Notice:</strong> Dr Ashleigh Toh is registered as a Dental Surgeon with the Singapore Dental Council (SDC). In compliance with Singapore regulations and SDC guidelines, Oral Medicine is an area of advanced postgraduate academic qualification (MSc Oral Medicine, London) and clinical focus, and is not a registerable dental specialty in Singapore. Dr Toh does not hold herself out as a specialist dentist. This website contains factual educational and collegiate information only, and does not provide automated triage, medical guarantees, or individual diagnosis.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Dr Ashleigh Toh. All rights reserved.</div>
+        <div>Hosted statically &bull; Accessible &bull; Free Tier Compatible</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MINIMAL ACCESSIBLE JAVASCRIPT (ZERO DEPENDENCIES)
+       ========================================================================== -->
+  <script>
+    (function() {
+      'use strict';
+
+      // 1. Mobile Navigation Toggle
+      const navToggle = document.getElementById('mobileNavToggle');
+      const navLinks = document.getElementById('navLinks');
+
+      if (navToggle && navLinks) {
+        navToggle.addEventListener('click', function() {
+          const isOpen = navLinks.classList.contains('is-open');
+          navLinks.classList.toggle('is-open', !isOpen);
+          navToggle.setAttribute('aria-expanded', String(!isOpen));
+        });
+
+        // Close mobile nav when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            if (navLinks.classList.contains('is-open')) {
+              navLinks.classList.remove('is-open');
+              navToggle.setAttribute('aria-expanded', 'false');
+            }
+          });
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && navLinks.classList.contains('is-open')) {
+            navLinks.classList.remove('is-open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.focus();
+          }
+        });
+      }
+
+      // 2. Active Section ScrollSpy
+      const sections = document.querySelectorAll('section[id]');
+      const navItems = document.querySelectorAll('.nav-link');
+
+      function updateActiveNav() {
+        const scrollPosition = window.scrollY + 120;
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('id');
+
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navItems.forEach(item => {
+              item.classList.remove('active');
+              if (item.getAttribute('href') === '#' + sectionId) {
+                item.classList.add('active');
+              }
+            });
+          }
+        });
+      }
+
+      window.addEventListener('scroll', updateActiveNav, { passive: true });
+
+      // 3. Header Scrolled Styling
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 30) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }, { passive: true });
+
+      // 4. Locations Schedule View Toggle (Clinic Cards vs Weekly Table)
+      const btnViewClinics = document.getElementById('btnViewClinics');
+      const btnViewTimetable = document.getElementById('btnViewTimetable');
+      const clinicsGridView = document.getElementById('clinicsGridView');
+      const timetableTableView = document.getElementById('timetableTableView');
+
+      if (btnViewClinics && btnViewTimetable && clinicsGridView && timetableTableView) {
+        btnViewClinics.addEventListener('click', () => {
+          btnViewClinics.classList.add('active');
+          btnViewClinics.setAttribute('aria-pressed', 'true');
+          btnViewTimetable.classList.remove('active');
+          btnViewTimetable.setAttribute('aria-pressed', 'false');
+          clinicsGridView.style.display = 'grid';
+          timetableTableView.classList.remove('is-visible');
+        });
+
+        btnViewTimetable.addEventListener('click', () => {
+          btnViewTimetable.classList.add('active');
+          btnViewTimetable.setAttribute('aria-pressed', 'true');
+          btnViewClinics.classList.remove('active');
+          btnViewClinics.setAttribute('aria-pressed', 'false');
+          clinicsGridView.style.display = 'none';
+          timetableTableView.classList.add('is-visible');
+        });
+      }
+
+    })();
+  </script>
+</body>
+</html>

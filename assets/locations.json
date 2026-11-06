@@ -1,0 +1,154 @@
+{
+  "locumPractices": [
+    {
+      "id": "teethq-hougang-rivercourt",
+      "clinicName": "Teeth Q Dental Surgeons",
+      "branchName": "Hougang RiverCourt",
+      "role": "Locum Dental Surgeon",
+      "address": {
+        "fullAddress": "377 Hougang Street 32, #B1-09/10 Hougang RiverCourt, Singapore 530377",
+        "street": "377 Hougang Street 32",
+        "unit": "#B1-09/10",
+        "building": "Hougang RiverCourt",
+        "postalCode": "530377",
+        "country": "Singapore"
+      },
+      "contact": {
+        "phone": "+65 6970 5715",
+        "website": "https://teethq.com",
+        "googleMapsUrl": "https://maps.google.com/?q=Teeth+Q+Dental+Surgeons+Hougang+RiverCourt+530377"
+      },
+      "schedule": [
+        {
+          "day": "Sunday",
+          "dayOfWeek": 0,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "timeFormatted": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "dayOfWeek": 3,
+          "startTime": "13:00",
+          "endTime": "21:00",
+          "timeFormatted": "1:00 PM – 9:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "winston-tan-oms",
+      "clinicName": "Winston Tan Oral Maxillofacial Surgery",
+      "branchName": "Mount Elizabeth Novena Specialist Centre",
+      "role": "Locum Dental Surgeon",
+      "address": {
+        "fullAddress": "38 Irrawaddy Road, #11-43/44/45/46 Mount Elizabeth Novena Specialist Centre, Singapore 329563",
+        "street": "38 Irrawaddy Road",
+        "unit": "#11-43/44/45/46",
+        "building": "Mount Elizabeth Novena Specialist Centre",
+        "postalCode": "329563",
+        "country": "Singapore"
+      },
+      "contact": {
+        "phone": "+65 6360 0570",
+        "email": "info@wtoms.com.sg",
+        "website": "https://wtoms.com.sg",
+        "googleMapsUrl": "https://maps.google.com/?q=Winston+Tan+Oral+Maxillofacial+Surgery+Mount+Elizabeth+Novena+329563"
+      },
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "dayOfWeek": 2,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "timeFormatted": "9:00 AM – 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "dayOfWeek": 4,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "timeFormatted": "9:00 AM – 6:00 PM"
+        }
+      ]
+    },
+    {
+      "id": "teethq-matilda-portico",
+      "clinicName": "Teeth Q Dental Surgeons",
+      "branchName": "Matilda Portico",
+      "role": "Locum Dental Surgeon",
+      "address": {
+        "fullAddress": "218 Sumang Walk, #01-02 Matilda Portico, Singapore 820218",
+        "street": "218 Sumang Walk",
+        "unit": "#01-02",
+        "building": "Matilda Portico",
+        "postalCode": "820218",
+        "country": "Singapore"
+      },
+      "contact": {
+        "phone": "+65 6538 2260",
+        "website": "https://teethq.com",
+        "googleMapsUrl": "https://maps.google.com/?q=Teeth+Q+Dental+Surgeons+Matilda+Portico+820218"
+      },
+      "schedule": [
+        {
+          "day": "Friday",
+          "dayOfWeek": 5,
+          "startTime": "09:00",
+          "endTime": "18:00",
+          "timeFormatted": "9:00 AM – 6:00 PM"
+        }
+      ]
+    }
+  ],
+  "weeklySchedule": [
+    {
+      "day": "Sunday",
+      "dayOfWeek": 0,
+      "clinicName": "Teeth Q Dental Surgeons (Hougang RiverCourt)",
+      "time": "9:00 AM – 6:00 PM",
+      "practiceId": "teethq-hougang-rivercourt"
+    },
+    {
+      "day": "Monday",
+      "dayOfWeek": 1,
+      "clinicName": null,
+      "time": "Off",
+      "practiceId": null
+    },
+    {
+      "day": "Tuesday",
+      "dayOfWeek": 2,
+      "clinicName": "Winston Tan Oral Maxillofacial Surgery",
+      "time": "9:00 AM – 6:00 PM",
+      "practiceId": "winston-tan-oms"
+    },
+    {
+      "day": "Wednesday",
+      "dayOfWeek": 3,
+      "clinicName": "Teeth Q Dental Surgeons (Hougang RiverCourt)",
+      "time": "1:00 PM – 9:00 PM",
+      "practiceId": "teethq-hougang-rivercourt"
+    },
+    {
+      "day": "Thursday",
+      "dayOfWeek": 4,
+      "clinicName": "Winston Tan Oral Maxillofacial Surgery",
+      "time": "9:00 AM – 6:00 PM",
+      "practiceId": "winston-tan-oms"
+    },
+    {
+      "day": "Friday",
+      "dayOfWeek": 5,
+      "clinicName": "Teeth Q Dental Surgeons (Matilda Portico)",
+      "time": "9:00 AM – 6:00 PM",
+      "practiceId": "teethq-matilda-portico"
+    },
+    {
+      "day": "Saturday",
+      "dayOfWeek": 6,
+      "clinicName": null,
+      "time": "Off",
+      "practiceId": null
+    }
+  ]
+}
